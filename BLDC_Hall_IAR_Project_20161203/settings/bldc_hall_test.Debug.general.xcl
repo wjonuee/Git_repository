@@ -1,0 +1,13 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armjlink2.dll" 
+
+"K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Exe\c.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\Freescale\KVxx.dmac" 
+
+
+
+

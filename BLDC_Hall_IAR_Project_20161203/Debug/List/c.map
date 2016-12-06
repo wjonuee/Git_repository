@@ -1,0 +1,496 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                05/Dec/2016  22:51:05
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Exe\c.out
+#    Map file     =  
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\List\c.map
+#    Command line =  
+#        K:\BLDCM_Software\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\AMCLIB.a
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\bldc_control.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\board.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\clock_config.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fm_tsa_bldc.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_appcmd.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_bdm.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_can.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_Kxx.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_lin.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_pipes.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_protocol.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_rec.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_scope.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_serial.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_sfio.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\freemaster_tsa.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_clock.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_common.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_debug_console.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_dmamux.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_dspi.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_gpio.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_sim.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_smc.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\fsl_uart.o
+#        K:\BLDCM_Software\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\GDFLIB.a
+#        K:\BLDCM_Software\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\GFLIB.a
+#        K:\BLDCM_Software\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\GMCLIB.a
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\m1_sm_ref_sol.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\main.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\mcdrv_adc_adc16.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\mcdrv_cmt_ftm.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\mcdrv_mosfet_predrv_spi.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\mcdrv_pwm3ph_ftm.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\mcdrv_twrkv11z.o
+#        K:\BLDCM_Software\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\MLIB.a
+#        K:\BLDCM_Software\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\PCLIB\PCLIB.a
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\pin_mux.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\startup_MKV11Z7.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\state_machine.o
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj\system_MKV11Z7.o
+#        -o K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Exe\c.out
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --map
+#        K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\List\c.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\config\linker\Freescale\MKV11Z128xxx7.icf" --semihosting
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000400 to 0x0000040f] { section FlashConfig };
+"P2":  place in [from 0x00000000 to 0x000003ff] |
+                [from 0x00000410 to 0x0001ffff] { ro };
+"P3":  place in [from 0x1ffff000 to 0x1fffffff] |
+                [from 0x20000000 to 0x20002fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x00000000    0xc0  startup_MKV11Z7.o [1]
+                            - 0x000000c0    0xc0
+
+"P2", part 1 of 2:                          0x34
+  .rodata            const    0x000000c0     0x0  zero_init3.o [8]
+  .rodata            const    0x000000c0     0x0  copy_init3.o [8]
+  Initializer bytes  const    0x000000c0    0x34  <for P3 s0>
+                            - 0x000000f4    0x34
+
+"P1":                                       0x10
+  FlashConfig        ro code  0x00000400    0x10  startup_MKV11Z7.o [1]
+                            - 0x00000410    0x10
+
+"P2", part 2 of 2:                        0x218c
+  .text              ro code  0x00000410   0x6a8  mcdrv_twrkv11z.o [1]
+  .text              ro code  0x00000ab8    0xe0  I32DivModFast.o [8]
+  .text              ro code  0x00000b98    0x3c  mcdrv_pwm3ph_ftm.o [1]
+  .text              ro code  0x00000bd4    0x18  mcdrv_cmt_ftm.o [1]
+  .text              ro code  0x00000bec   0x2f0  mcdrv_adc_adc16.o [1]
+  .text              ro code  0x00000edc     0x2  IntDivZer.o [8]
+  .text              ro code  0x00000ee0   0x32c  MLIB_Div_F32_Asm.o [5]
+  .text              ro code  0x0000120c   0x328  fsl_debug_console.o [1]
+  .text              ro code  0x00001534    0x10  strlen.o [8]
+  .text              ro code  0x00001544   0x268  fsl_uart.o [1]
+  .text              ro code  0x000017ac    0x18  fsl_common.o [1]
+  .text              ro code  0x000017c4   0x264  fsl_clock.o [1]
+  .text              ro code  0x00001a28   0x13c  pin_mux.o [1]
+  .text              ro code  0x00001b64   0x116  FltAddSub.o [7]
+  .text              ro code  0x00001c80    0xe4  GFLIB_CtrlPIp_A32_Asm.o [4]
+  .text              ro code  0x00001d64    0xbc  main.o [1]
+  .text              ro code  0x00001e20    0x26  FltCmpLe.o [7]
+  .text              ro code  0x00001e46     0x2  startup_MKV11Z7.o [1]
+  .text              ro code  0x00001e48    0xb4  clock_config.o [1]
+  .text              ro code  0x00001efc    0x84  board.o [1]
+  .text              ro code  0x00001f80    0x1e  freemaster_protocol.o [1]
+  .text              ro code  0x00001f9e     0x2  startup_MKV11Z7.o [1]
+  .text              ro code  0x00001fa0     0xc  m1_sm_ref_sol.o [1]
+  .text              ro code  0x00001fac    0x34  ABImemcpy.o [8]
+  .text              ro code  0x00001fe0    0x64  fsl_gpio.o [1]
+  .text              ro code  0x00002044     0x2  freemaster_tsa.o [1]
+  .text              ro code  0x00002046     0x2  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002048     0x2  freemaster_scope.o [1]
+  .text              ro code  0x0000204a     0x2  startup_MKV11Z7.o [1]
+  .text              ro code  0x0000204c    0x1c  freemaster_rec.o [1]
+  .text              ro code  0x00002068    0x54  freemaster_serial.o [1]
+  .text              ro code  0x000020c0    0x7e  GDFLIB_FilterIIR1_F32_Asm.o [3]
+  .text              ro code  0x0000213e     0x2  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002140    0x70  fsl_dspi.o [1]
+  .rodata            const    0x000021b0    0x58  fsl_dspi.o [1]
+  .rodata            const    0x00002208    0x58  fsl_gpio.o [1]
+  .rodata            const    0x00002260    0x58  fsl_uart.o [1]
+  .rodata            const    0x000022b8    0x40  fsl_uart.o [1]
+  .rodata            const    0x000022f8    0x40  fsl_uart.o [1]
+  .text              ro code  0x00002338    0x3c  zero_init3.o [8]
+  .text              ro code  0x00002374    0x30  copy_init3.o [8]
+  .rodata            const    0x000023a4    0x2c  fsl_common.o [1]
+  .text              ro code  0x000023d0    0x28  system_MKV11Z7.o [1]
+  .text              ro code  0x000023f8    0x28  data_init.o [8]
+  .text              ro code  0x00002420    0x24  startup_MKV11Z7.o [1]
+  .iar.init_table    const    0x00002444    0x24  - Linker created -
+  .rodata            const    0x00002468    0x1c  fsl_uart.o [1]
+  .text              ro code  0x00002484    0x1a  cmain.o [8]
+  .text              ro code  0x0000249e     0x4  low_level_init.o [6]
+  .text              ro code  0x000024a2     0x8  exit.o [6]
+  .text              ro code  0x000024ac     0xa  cexit.o [8]
+  .text              ro code  0x000024b8    0x14  exit.o [9]
+  .rodata            const    0x000024cc    0x18  fsl_uart.o [1]
+  .rodata            const    0x000024e4    0x10  fsl_dspi.o [1]
+  .rodata            const    0x000024f4    0x10  mcdrv_twrkv11z.o [1]
+  .text              ro code  0x00002504     0xc  cstartup_M.o [8]
+  .rodata            const    0x00002510     0x8  clock_config.o [1]
+  .rodata            const    0x00002518     0x8  clock_config.o [1]
+  .rodata            const    0x00002520     0x8  fsl_gpio.o [1]
+  .rodata            const    0x00002528     0x8  fsl_uart.o [1]
+  .rodata            const    0x00002530     0x8  fsl_uart.o [1]
+  .rodata            const    0x00002538     0x8  fsl_uart.o [1]
+  .text              ro code  0x00002540     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002548     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002550     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002558     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002560     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002568     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002570     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002578     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002580     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002588     0x8  startup_MKV11Z7.o [1]
+  .text              ro code  0x00002590     0x8  startup_MKV11Z7.o [1]
+  .rodata            const    0x00002598     0x4  board.o [1]
+                            - 0x0000259c  0x218c
+
+"P3", part 1 of 3:                          0x34
+  P3 s0                       0x20000000    0x34  <Init block>
+    .data            inited   0x20000000    0x18  main.o [1]
+    .data            inited   0x20000018    0x18  mcdrv_twrkv11z.o [1]
+    .data            inited   0x20000030     0x4  system_MKV11Z7.o [1]
+                            - 0x20000034    0x34
+
+"P3", part 2 of 3:                         0x940
+  .bss               zero     0x20000034   0x800  freemaster_rec.o [1]
+  .bss               zero     0x20000834    0x78  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x200008ac    0x1c  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x200008c8    0x18  main.o [1]
+  .bss               zero     0x200008e0    0x14  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x200008f4    0x10  fsl_debug_console.o [1]
+  .bss               zero     0x20000904    0x10  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x20000914    0x10  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x20000924     0xc  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x20000930     0x8  fsl_uart.o [1]
+  .bss               zero     0x20000938     0x8  mcdrv_twrkv11z.o [1]
+  .bss               zero     0x20000940     0x4  freemaster_rec.o [1]
+  .bss               zero     0x20000944     0x4  freemaster_rec.o [1]
+  .bss               zero     0x20000948     0x4  freemaster_serial.o [1]
+  .bss               zero     0x2000094c     0x4  fsl_clock.o [1]
+  .bss               zero     0x20000950     0x4  fsl_clock.o [1]
+  .bss               zero     0x20000954     0x4  fsl_dspi.o [1]
+  .bss               zero     0x20000958     0x4  fsl_dspi.o [1]
+  .bss               zero     0x2000095c     0x4  fsl_dspi.o [1]
+  .bss               zero     0x20000960     0x4  fsl_uart.o [1]
+  .bss               zero     0x20000964     0x4  main.o [1]
+  .bss               zero     0x20000968     0x2  m1_sm_ref_sol.o [1]
+  .bss               zero     0x2000096a     0x2  main.o [1]
+  .bss               zero     0x2000096c     0x2  mcdrv_adc_adc16.o [1]
+  .bss               zero     0x2000096e     0x2  mcdrv_cmt_ftm.o [1]
+  .bss               zero     0x20000970     0x2  mcdrv_pwm3ph_ftm.o [1]
+  .bss               zero     0x20000972     0x1  freemaster_serial.o [1]
+  .bss               zero     0x20000973     0x1  freemaster_serial.o [1]
+                            - 0x20000974   0x940
+
+"P3", part 3 of 3:                         0x800
+  CSTACK                      0x20000978   0x800  <Block>
+    CSTACK           uninit   0x20000978   0x800  <Block tail>
+                            - 0x20001178   0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x940:
+          0x20000034  0x940
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x34:
+          0x000000c0   0x34
+    1 destination range, total size 0x34:
+          0x20000000   0x34
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj: [1]
+    board.o                          132        4
+    clock_config.o                   180       16
+    freemaster_protocol.o             30
+    freemaster_rec.o                  28             2 056
+    freemaster_scope.o                 2
+    freemaster_serial.o               84                 6
+    freemaster_tsa.o                   2
+    fsl_clock.o                      612                 8
+    fsl_common.o                      24       44
+    fsl_debug_console.o              808                16
+    fsl_dspi.o                       112      104       12
+    fsl_gpio.o                       100       96
+    fsl_uart.o                       616      292       12
+    m1_sm_ref_sol.o                   12                 2
+    main.o                           188       24       54
+    mcdrv_adc_adc16.o                752                 2
+    mcdrv_cmt_ftm.o                   24                 2
+    mcdrv_pwm3ph_ftm.o                60                 2
+    mcdrv_twrkv11z.o               1 704       40      244
+    pin_mux.o                        316
+    startup_MKV11Z7.o                342
+    system_MKV11Z7.o                  40        4        4
+    ------------------------------------------------------
+    Total:                         6 168      624    2 420
+
+command line: [2]
+    ------------------------------------------------------
+    Total:
+
+GDFLIB.a: [3]
+    GDFLIB_FilterIIR1_F32_Asm.o      126
+    ------------------------------------------------------
+    Total:                           126
+
+GFLIB.a: [4]
+    GFLIB_CtrlPIp_A32_Asm.o          228
+    ------------------------------------------------------
+    Total:                           228
+
+MLIB.a: [5]
+    MLIB_Div_F32_Asm.o               812
+    ------------------------------------------------------
+    Total:                           812
+
+dl6M_tln.a: [6]
+    exit.o                             8
+    low_level_init.o                   4
+    ------------------------------------------------------
+    Total:                            12
+
+m6M_tl.a: [7]
+    FltAddSub.o                      278
+    FltCmpLe.o                        38
+    ------------------------------------------------------
+    Total:                           316
+
+rt6M_tl.a: [8]
+    ABImemcpy.o                       52
+    I32DivModFast.o                  224
+    IntDivZer.o                        2
+    cexit.o                           10
+    cmain.o                           26
+    copy_init3.o                      48
+    cstartup_M.o                      12
+    data_init.o                       40
+    strlen.o                          16
+    zero_init3.o                      60
+    ------------------------------------------------------
+    Total:                           490
+
+shb_l.a: [9]
+    exit.o                            20
+    ------------------------------------------------------
+    Total:                            20
+
+    Gaps                              16
+    Linker created                             36    2 048
+----------------------------------------------------------
+    Grand Total:                   8 188      660    4 468
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x00002444          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00002468          --   Gb  - Linker created -
+?main                   0x00002485         Code  Gb  cmain.o [8]
+BOARD_BootClockRUN      0x00001e73   0x3c  Code  Gb  clock_config.o [1]
+BOARD_InitGPIO          0x00001f27   0x1e  Code  Gb  board.o [1]
+BOARD_InitOsc0          0x00001eaf   0x24  Code  Gb  clock_config.o [1]
+BOARD_InitPins          0x00001a5d   0xd6  Code  Gb  pin_mux.o [1]
+BOARD_InitSysTick       0x00001f45   0x20  Code  Gb  board.o [1]
+BOARD_InitUART          0x00001efd   0x2a  Code  Gb  board.o [1]
+CLOCK_BootToFeeMode     0x00001a01   0x22  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableClock       0x00001545   0x12  Code  Lc  fsl_uart.o [1]
+CLOCK_EnableClock       0x00001a29   0x12  Code  Lc  pin_mux.o [1]
+CLOCK_GetOscRangeFromFreq
+                        0x000017ff   0x1c  Code  Lc  fsl_clock.o [1]
+CLOCK_InitOsc0          0x00001901   0x4e  Code  Gb  fsl_clock.o [1]
+CLOCK_SYS_FllStableDelay
+                        0x00001e61   0x12  Code  Lc  clock_config.o [1]
+CLOCK_SetEr32kClock     0x000017c5   0x18  Code  Lc  fsl_clock.o [1]
+CLOCK_SetExternalRefClkConfig
+                        0x00001839   0x16  Code  Gb  fsl_clock.o [1]
+CLOCK_SetFeeMode        0x00001969   0x90  Code  Gb  fsl_clock.o [1]
+CLOCK_SetInternalRefClkConfig
+                        0x00001855   0xa6  Code  Gb  fsl_clock.o [1]
+CLOCK_SetSimConfig      0x00001821   0x10  Code  Gb  fsl_clock.o [1]
+CLOCK_SetSimSafeDivs    0x00001e49    0xa  Code  Lc  clock_config.o [1]
+CLOCK_SetXtal0Freq      0x00001e53    0x6  Code  Lc  clock_config.o [1]
+CLOCK_SetXtal32Freq     0x00001e59    0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x20000978          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001178          --   Gb  - Linker created -
+DSPI_CommonIRQHandler   0x00002149   0x28  Code  Lc  fsl_dspi.o [1]
+DSPI_IsMaster           0x00002141    0x8  Code  Lc  fsl_dspi.o [1]
+DbgConsole_ConvertRadixNumToString
+                        0x0000127b   0x98  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Printf       0x0000120d   0x22  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintfFormattedData
+                        0x00001313  0x222  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_PrintfPaddingCharacter
+                        0x00001259   0x22  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Putchar      0x0000122f   0x22  Code  Gb  fsl_debug_console.o [1]
+DisableGlobalIRQ        0x00001d65    0x8  Code  Lc  main.o [1]
+EnableIRQ               0x000004a3    0xa  Code  Lc  mcdrv_twrkv11z.o [1]
+FMSTR_Init              0x00001f81   0x1e  Code  Gb  freemaster_protocol.o [1]
+FMSTR_InitRec           0x0000204d    0xe  Code  Gb  freemaster_rec.o [1]
+FMSTR_InitScope         0x00002049    0x2  Code  Gb  freemaster_scope.o [1]
+FMSTR_InitSerial        0x00002089   0x22  Code  Gb  freemaster_serial.o [1]
+FMSTR_InitTsa           0x00002045    0x2  Code  Gb  freemaster_tsa.o [1]
+FMSTR_Listen            0x00002069   0x20  Code  Lc  freemaster_serial.o [1]
+GDFLIB_FilterIIR1_F16_FAsm
+                        0x000020c1         Code  Gb  GDFLIB_FilterIIR1_F32_Asm.o [3]
+GFLIB_CtrlPIpAW_F16_FAsm
+                        0x00001c81         Code  Gb  GFLIB_CtrlPIp_A32_Asm.o [4]
+GPIO_PinInit            0x00001ff9   0x42  Code  Gb  fsl_gpio.o [1]
+GPIO_WritePinOutput     0x00001fe1   0x18  Code  Lc  fsl_gpio.o [1]
+InitADC16               0x000007e5  0x19a  Code  Gb  mcdrv_twrkv11z.o [1]
+InitClock               0x000004c9   0x4e  Code  Gb  mcdrv_twrkv11z.o [1]
+InitFTM0                0x00000517  0x13a  Code  Gb  mcdrv_twrkv11z.o [1]
+InitFTM1                0x00000655   0x5e  Code  Gb  mcdrv_twrkv11z.o [1]
+InitFTM2                0x000006c5   0x62  Code  Gb  mcdrv_twrkv11z.o [1]
+InitPDB                 0x00000989   0x60  Code  Gb  mcdrv_twrkv11z.o [1]
+M1_SetAppSwitch         0x00001fa1    0x6  Code  Gb  m1_sm_ref_sol.o [1]
+MCDRV_Adc16Init_twr_kv11
+                        0x00000bed  0x2e2  Code  Gb  mcdrv_adc_adc16.o [1]
+MCDRV_FtmCmtInit        0x00000bd5   0x14  Code  Gb  mcdrv_cmt_ftm.o [1]
+MCDRV_FtmPwm3PhInit     0x00000b99   0x36  Code  Gb  mcdrv_pwm3ph_ftm.o [1]
+MCDRV_Init_M1           0x000004ad   0x1c  Code  Gb  mcdrv_twrkv11z.o [1]
+MLIB_DivSat_F16ll_FAsm  0x000011eb         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_DivSat_F16ls_FAsm  0x00000fbf         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_DivSat_F32_FAsm    0x000010f5         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_DivSat_F32ls_FAsm  0x00000fe7         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_Div_F16ll_FAsm     0x00001115         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_Div_F16ls_FAsm     0x00000ee1         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_Div_F32_FAsm       0x00001009         Code  Gb  MLIB_Div_F32_Asm.o [5]
+MLIB_Div_F32ls_FAsm     0x00000fe3         Code  Gb  MLIB_Div_F32_Asm.o [5]
+NVIC_EnableIRQ          0x00000411    0xe  Code  Lc  mcdrv_twrkv11z.o [1]
+NVIC_SetPriority        0x0000041f   0x84  Code  Lc  mcdrv_twrkv11z.o [1]
+OSC_SetCapLoad          0x000017ef   0x10  Code  Lc  fsl_clock.o [1]
+OSC_SetExtRefClkConfig  0x000017dd   0x12  Code  Lc  fsl_clock.o [1]
+PORT_SetPinMux          0x00001a3b   0x22  Code  Lc  pin_mux.o [1]
+Region$$Table$$Base     0x00002444          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00002468          --   Gb  - Linker created -
+SPI0_DriverIRQHandler   0x00002171   0x24  Code  Gb  fsl_dspi.o [1]
+SystemCoreClock         0x20000030    0x4  Data  Gb  system_MKV11Z7.o [1]
+SystemInit              0x000023d1   0x16  Code  Gb  system_MKV11Z7.o [1]
+UART0_DriverIRQHandler  0x0000177d   0x10  Code  Gb  fsl_uart.o [1]
+UART1_DriverIRQHandler  0x0000178d   0x10  Code  Gb  fsl_uart.o [1]
+UART_GetDefaultConfig   0x00001713   0x38  Code  Gb  fsl_uart.o [1]
+UART_GetInstance        0x00001557   0x30  Code  Gb  fsl_uart.o [1]
+UART_Init               0x00001587  0x18c  Code  Gb  fsl_uart.o [1]
+__Vectors               0x00000000          --   Gb  startup_MKV11Z7.o [1]
+__Vectors_End           0x000000c0         Data  Gb  startup_MKV11Z7.o [1]
+__Vectors_Size {Abs}    0x000000c0          --   Gb  startup_MKV11Z7.o [1]
+__aeabi_assert          0x000017ad   0x12  Code  Gb  fsl_common.o [1]
+__aeabi_cfcmple         0x00001e21         Code  Gb  FltCmpLe.o [7]
+__aeabi_fadd            0x00001b65         Code  Gb  FltAddSub.o [7]
+__aeabi_idiv            0x00000ae5         Code  Gb  I32DivModFast.o [8]
+__aeabi_idiv0           0x00000edd         Code  Gb  IntDivZer.o [8]
+__aeabi_idivmod         0x00000ae5         Code  Gb  I32DivModFast.o [8]
+__aeabi_memcpy4         0x00001fad         Code  Wk  ABImemcpy.o [8]
+__aeabi_uidiv           0x00000aeb         Code  Gb  I32DivModFast.o [8]
+__aeabi_uidivmod        0x00000aeb         Code  Gb  I32DivModFast.o [8]
+__cmain                 0x00002485         Code  Gb  cmain.o [8]
+__exit                  0x000024b9   0x14  Code  Gb  exit.o [9]
+__iar_copy_init3        0x00002375   0x30  Code  Gb  copy_init3.o [8]
+__iar_data_init3        0x000023f9   0x28  Code  Gb  data_init.o [8]
+__iar_program_start     0x00002505         Code  Gb  cstartup_M.o [8]
+__iar_zero_init3        0x00002339   0x3c  Code  Gb  zero_init3.o [8]
+__low_level_init        0x0000249f    0x4  Code  Gb  low_level_init.o [6]
+__vector_table          0x00000000         Data  Gb  startup_MKV11Z7.o [1]
+__vector_table_0x1c     0x0000001c         Data  Gb  startup_MKV11Z7.o [1]
+_call_main              0x00002491         Code  Gb  cmain.o [8]
+_exit                   0x000024ad         Code  Gb  cexit.o [8]
+_main                   0x0000249b         Code  Gb  cmain.o [8]
+bDemoMode               0x2000096a    0x2  Data  Gb  main.o [1]
+bldcCommutationTableComp
+                        0x000024f4   0x10  Data  Gb  mcdrv_twrkv11z.o [1]
+delay                   0x00001d6d   0x3c  Code  Gb  main.o [1]
+exit                    0x000024a3    0x8  Code  Gb  exit.o [6]
+g_bM1SwitchAppOnOff     0x20000968    0x2  Data  Gb  m1_sm_ref_sol.o [1]
+g_dspiHandle            0x20000954    0x4  Data  Lc  fsl_dspi.o [1]
+g_sAppId                0x20000000   0x18  Data  Gb  main.o [1]
+g_sAppIdFM              0x200008c8   0x18  Data  Gb  main.o [1]
+g_sClockSetup           0x200008e0   0x14  Data  Gb  mcdrv_twrkv11z.o [1]
+g_sM1AdcInit            0x20000924    0xc  Data  Gb  mcdrv_twrkv11z.o [1]
+g_sM1AdcSensor          0x20000834   0x78  Data  Gb  mcdrv_twrkv11z.o [1]
+g_sM1CmtTmr             0x20000914   0x10  Data  Gb  mcdrv_twrkv11z.o [1]
+g_sM1CmtTmrInit         0x20000938    0x8  Data  Gb  mcdrv_twrkv11z.o [1]
+g_sM1Pwm3ph             0x200008ac   0x1c  Data  Gb  mcdrv_twrkv11z.o [1]
+g_sM1Pwm3phInit         0x20000904   0x10  Data  Gb  mcdrv_twrkv11z.o [1]
+g_xtal0Freq             0x2000094c    0x4  Data  Gb  fsl_clock.o [1]
+g_xtal32Freq            0x20000950    0x4  Data  Gb  fsl_clock.o [1]
+main                    0x00001da9   0x52  Code  Gb  main.o [1]
+pcm_nRecBuffAddr        0x20000944    0x4  Data  Lc  freemaster_rec.o [1]
+pcm_nRxTodo             0x20000973    0x1  Data  Lc  freemaster_serial.o [1]
+pcm_nTxTodo             0x20000972    0x1  Data  Lc  freemaster_serial.o [1]
+pcm_pOwnRecBuffer       0x20000034  0x800  Data  Lc  freemaster_rec.o [1]
+pcm_wFlags              0x20000948    0x4  Data  Lc  freemaster_serial.o [1]
+pcm_wRecFlags           0x20000940    0x4  Data  Gb  freemaster_rec.o [1]
+s_debugConsole          0x200008f4   0x10  Data  Lc  fsl_debug_console.o [1]
+s_dspiMasterIsr         0x20000958    0x4  Data  Lc  fsl_dspi.o [1]
+s_dspiSlaveIsr          0x2000095c    0x4  Data  Lc  fsl_dspi.o [1]
+s_statusPass            0x2000096c    0x2  Data  Lc  mcdrv_adc_adc16.o [1]
+s_statusPass            0x2000096e    0x2  Data  Lc  mcdrv_cmt_ftm.o [1]
+s_statusPass            0x20000970    0x2  Data  Lc  mcdrv_pwm3ph_ftm.o [1]
+s_uartBases             0x00002530    0x8  Data  Lc  fsl_uart.o [1]
+s_uartClock             0x00002538    0x8  Data  Lc  fsl_uart.o [1]
+s_uartHandle            0x20000930    0x8  Data  Lc  fsl_uart.o [1]
+s_uartIsr               0x20000960    0x4  Data  Lc  fsl_uart.o [1]
+strlen                  0x00001535   0x10  Code  Gb  strlen.o [8]
+ui32SpeedStimulatorCnt  0x20000964    0x4  Data  Lc  main.o [1]
+
+
+[1] = K:\BLDCM_Software\BLDC_Hall_IAR_Project_20161203\Debug\Obj
+[2] = command line
+[3] = GDFLIB.a
+[4] = GFLIB.a
+[5] = MLIB.a
+[6] = dl6M_tln.a
+[7] = m6M_tl.a
+[8] = rt6M_tl.a
+[9] = shb_l.a
+
+  8 188 bytes of readonly  code memory
+    660 bytes of readonly  data memory
+  4 468 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

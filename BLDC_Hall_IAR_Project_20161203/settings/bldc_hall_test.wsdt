@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>bldc_hall_test/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>26</ColumnWidth0><ColumnWidth1>998</ColumnWidth1><ColumnWidth2>266</ColumnWidth2><ColumnWidth3>66</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>272</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Debug-Log><ColumnWidth0>26</ColumnWidth0><ColumnWidth1>1331</ColumnWidth1></Debug-Log><TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20587-2511</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>bldc_hall_test</ExpandedNode><ExpandedNode>bldc_hall_test/src</ExpandedNode><ExpandedNode>bldc_hall_test/src/board</ExpandedNode><ExpandedNode>bldc_hall_test/src/mc_drivers</ExpandedNode><ExpandedNode>bldc_hall_test/src/mc_drivers/MKV11Z7</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31335-2514</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-3317-21726</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\m1_bldc_appconfig.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>2937</SelStart2><SelEnd2>2937</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\pin_mux.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>78</YPos2><SelStart2>4065</SelStart2><SelEnd2>4065</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\mcdrv_twrkv11z.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>39</YPos2><SelStart2>2482</SelStart2><SelEnd2>2482</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>135</YPos2><SelStart2>5409</SelStart2><SelEnd2>5409</SelEnd2></Tab><ActiveTab>3</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_ftm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>72</YPos2><SelStart2>3995</SelStart2><SelEnd2>3995</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_ftm.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>36</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\mcdrv_twrkv11z.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>81</YPos2><SelStart2>2794</SelStart2><SelEnd2>2794</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\board.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>60</YPos2><SelStart2>3168</SelStart2><SelEnd2>3168</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_clock.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>606</YPos2><SelStart2>18903</SelStart2><SelEnd2>18903</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00FD4A18><key>iaridepm.enu1</key></Toolbar-00FD4A18></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>633</Bottom><Right>367</Right><x>-2</x><y>-2</y><xscreen>256</xscreen><yscreen>204</yscreen><sizeHorzCX>182857</sizeHorzCX><sizeHorzCY>204409</sizeHorzCY><sizeVertCX>263571</sizeVertCX><sizeVertCY>636273</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>317</Bottom><Right>1402</Right><x>-2</x><y>-2</y><xscreen>1404</xscreen><yscreen>319</yscreen><sizeHorzCX>1002857</sizeHorzCX><sizeHorzCY>319639</sizeHorzCY><sizeVertCX>182857</sizeVertCX><sizeVertCY>204409</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

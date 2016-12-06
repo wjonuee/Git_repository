@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2307173648</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\mcdrv_twrkv11z.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_twrkv11z.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_Kxx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_bdm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_can.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_lin.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_pipes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_protocol.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_rec.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_scope.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_serial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_sfio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_tsa.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_sfio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_Kxx.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MKV11Z7.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_smc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_pipes.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_rec.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_hsadc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_dmamux.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_sim.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_tsa.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock_config.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin_mux.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_twrkv11z.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_adc12.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_debug_console.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_cmt_ftm.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_adc16.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_serial.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_common.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_mosfet_predrv_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_scope.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_lin.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\m1_sm_ref_sol.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_pwm3ph_ftm.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_pwm3ph_pwma.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fm_tsa_bldc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\state_machine.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_clock.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_dspi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bldc_control.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_appcmd.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_can.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_protocol.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_bdm.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_dspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_dmamux.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_smc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_sim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_dspi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_dmamux.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_common.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_clock.pbi</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_pwma.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_pwma.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Div1Q_F32_Asm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fm_tsa_bldc.o</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_BiShift_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add4_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MMDVSQ.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Conv_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Clb_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Shift_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_DivHw1Q_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Div1Q_F16_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add4_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_BiShift_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_BiShift_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add4_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Shift_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Clb_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Clb_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Div1Q_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_BiShift_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Add4_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_DivHw1Q_F16_Asm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_cmt_ftm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\m1_sm_ref_sol.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_adc16.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_pwm3ph_ftm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_pwm3ph_pwma.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_mosfet_predrv_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bldc_control.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_cmt_ftm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_hsadc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_adc16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_hsadc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_adc_adc12.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_pwm3ph_ftm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_mosfet_predrv_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_pwm3ph_pwma.pbi</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac4Rnd_F32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac4Rnd_F16_Asmi.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\fm_tsa_bldc.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\c.map</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_MKV11Z7.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\m1_sm_ref_sol.o</file>
+      <file>$TOOLKIT_DIR$\config\linker\Freescale\MKV11Z128xxx7.icf</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Ramp_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Ramp_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Ramp_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Ramp_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_SinCos_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Sqrt_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Sqrt_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_UpperLimit_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_UpperLimit_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_VectorLimit1_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_AtanYXHw_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_FlexRampHw_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_DFlexRampHw_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_SqrtHw_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_SqrtHw_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_SqrtHw_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_SqrtHw_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_Clark_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_VectorLimit1Hw_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\gmclib_types.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_Decoupling_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_Park_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_ElimDcBusRip_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_ElimDcBusRip_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_Svm_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\Include\GDFLIB_FilterIIR1_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_ElimDcBusRipHw_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\GMCLIB_ElimDcBusRipHw_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\Include\gdflib_types.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Abs_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Abs_F16.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bldc_control.o</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\mlib_types.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Abs_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\RTCESL_cfg.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Abs_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin_mux.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_twrkv11z.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock_config.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pin_mux.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\state_machine.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\state_machine.pbi</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_mosfet_predrv_lpspi.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_Kxx.o</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_mosfet_predrv_lpspi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_protocol.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_lin.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_can.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_appcmd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_pipes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_bdm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_serial.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_rec.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_scope.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_sfio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_tsa.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\freemaster_appcmd.pbi</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\Include\GDFLIB_FilterIIR2_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\Include\GDFLIB_FilterMA_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\Include\amclib_types.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\Include\GDFLIB_FilterMA_A32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\Include\AMCLIB_AngleTrackObsrv_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\Include\AMCLIB_PMSMBemfObsrvDQ_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\Include\AMCLIB_TrackObsrv_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\Include\AMCLIB_PMSMBemfObsrvDQHw_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Shift_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Shift_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sign_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sign_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub4_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub4_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub4_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub4_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Atan_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\gflib_types.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_AtanYX_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_CtrlPIp_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_FlexRamp_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_DFlexRamp_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_DRamp_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_DRamp_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Hyst_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Integrator_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Limit_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Limit_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_LowerLimit_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_LowerLimit_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Lut_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_Lut_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_LutPer_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\GFLIB_LutPer_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MsuRnd_A32.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MsuRnd_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MsuRnd_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MsuRnd_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MsuRnd_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mul_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MulRnd_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MulRnd_A32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MulRnd_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MulRnd_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mul_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mul_A32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mul_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mul_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Neg_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Neg_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Neg_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Rcp1Q_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_RcpHw1Q_A32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_RcpHw_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Rcp_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Rnd_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Rnd_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sat_A32_Asmi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_mosfet_predrv_lpspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mcdrv_mosfet_predrv_lpspi.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\Include\amclib.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\AMCLIB\AMCLIB.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\GDFLIB.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GDFLIB\Include\gdflib.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\Include\gflib.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GFLIB\GFLIB.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\GMCLIB.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\GMCLIB\Include\gmclib.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\mlib.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\MLIB.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\PCLIB\PCLIB.a</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\cmsis\Include\core_cm0plus.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\utilities\fsl_debug_console.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\cmsis\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\cmsis\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_clock.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_clock.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_common.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_common.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_dmamux.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_dmamux.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_dspi.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_dspi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_gpio.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_port.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_sim.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_sim.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_smc.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_smc.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_uart.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_uart.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\iar\startup_MKV11Z7.s</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\system_MKV11Z7.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\system_MKV11Z7.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\utilities\fsl_debug_console.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\MKV11Z7.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\board.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\MKV11Z7_features.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\board.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\mcdrv.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\clock_config.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\clock_config.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\mcdrv_twrkv11z.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_DivHw1Q_F32_Asm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_DivHw_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Div_A32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Div_F32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_DivHw_F16_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Div_F16_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Log2_U16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_DivHw_F32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac4Rnd_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MulRnd_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac4_F32.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MKV11Z7.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MKV11Z7.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bldc_hall_test.pbd</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc12.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc12.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_hsadc.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_hsadc.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MacRnd_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MacRnd_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MacRnd_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MacRnd_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MulRnd_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Neg_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MacRnd_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mul_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mac_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MnacRnd_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MnacRnd_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MnacRnd_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MnacRnd_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_MnacRnd_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mnac_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mnac_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mnac_F32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mnac_F32_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Mnac_A32.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu4Rnd_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Sub_F16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu4Rnd_F16_Asmi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu4Rnd_F32_Asm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\rtcesl\CM0_RTCESL_4.3_IAR\MLIB\Include\MLIB_Msu4_F32.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_smc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_sim.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\pin_mux.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\pin_mux.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_algorithms\bldc_control.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_appcmd.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_bdm.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_can.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_defcfg.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_Kxx.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_Kxx.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_lin.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_pipes.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_private.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_protocol.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_protocol.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_rec.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_rec.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_scope.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_serial.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_sfio.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_tsa.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_tsa.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_algorithms\bldc_control.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc16.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc16.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_cmt_ftm.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_cmt_ftm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_ftm.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_mosfet_predrv_spi.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_mosfet_predrv_spi.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_ftm.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\state_machine\state_machine.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_state_machine\m1_sm_ref_sol.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_state_machine\m1_sm_ref_sol.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\state_machine\state_machine.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\fm_tsa_bldc.c</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\fm_tsa_bldc.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_cfg.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\m1_bldc_appconfig.h</file>
+      <file>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_debug_console.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock_config.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_debug_console.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\mcdrv_twrkv11z.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 301 392 294 293 268 355 2 7 4 3 8 59 304 271 353 354 270 291 296 265 163 161 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 264 146 148 149 151 152 150 153 155 156 388 261 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 147 260 154 157 187 188 190 386 391 279 275 360 61 356 6 361 273 300</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 228 161 271 304 164 211 119 195 330 265 157 2 275 296 97 340 232 95 99 132 188 294 273 391 86 305 324 347 236 247 202 82 335 83 152 148 219 140 207 300 388 268 81 80 77 309 325 336 343 352 231 328 244 251 198 313 156 261 206 215 223 136 144 135 61 361 392 386 264 293 291 353 158 90 79 100 96 98 102 311 310 314 327 333 338 342 345 350 226 224 234 240 329 249 253 196 200 349 203 85 94 149 153 209 213 217 221 130 134 138 142 147 210 154 356 6 301 355 270 4 59 3 8 354 163 159 162 101 93 87 92 91 84 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 197 199 201 204 205 146 151 150 155 260 208 212 214 216 218 220 222 129 131 133 137 139 141 143 145 187 190 279 360</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 225 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_pwma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 294 293 268 271 353 270 291 296 264 146 148 149 151 152 150 153 155 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 161 326 99 94 233 330 88 344 245 353 159 91 307 337 224 239 252 205 354 335 268 152 265 101 87 83 308 118 332 341 348 229 237 242 248 95 203 349 313 148 264 163 162 93 92 84 89 302 306 312 324 331 334 339 338 346 351 227 230 235 238 241 243 246 250 85 197 201 204 82 355 7 2 304 296 271 156 294 158 164 90 81 79 86 100 80 96 97 98 77 102 305 311 309 310 119 314 325 327 333 336 340 342 343 345 347 350 352 226 228 231 234 236 328 240 232 244 329 247 249 251 253 195 196 198 200 202 4 59 3 8 293 291 149 153 76 270 146 151 150 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_mosfet_predrv_lpspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102 161 329 2 345 265 79 327 234 200 94 99 158 96 310 338 226 240 253 203 59 8 293 90 100 98 311 314 333 342 350 224 313 335 249 196 349 95 82 330 232 271 164 81 86 80 97 77 305 309 119 325 324 336 340 343 347 352 228 231 236 328 244 247 251 195 198 202 4 3 85 291 353 294 163 159 162 101 93 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 197 199 201 204 205 355 354 7 304 174 296 268 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 127 258 160 406 404 78 178 180 177 173 176 179 175 182 183 181 184 185 73 71 403 70 69 68 67 66 65 259 262 263 126 315 105 103 108 106 166 266 267 165 125 170 316 128 124 123 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\utilities\fsl_debug_console.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 403</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 2 7 4 3 8 59 304 6 402 5 60 292 275 360 61 355 356 361 294 293 268 271 353 354 270 291 296 273 288</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 293 7 304 355 402 288 6 60 360 294 9 292 4 59 3 8 5 275 61 356 273 361 296 291 271 353 303 268 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 273 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304 7 275 355 2 296 353 360 294 268 271 61 356 273 4 59 3 8 6 361 293 291 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 292</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 293 273 7 59 8 271 61 2 291 353 356 4 3 361 292 360 355 294 304 296 268 270 354 275</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_dmamux.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 277 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 7 353 291 61 273 59 8 6 293 271 356 4 3 361 275 360 355 294 304 296 268 270 354 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_dspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 294 7 360 268 355 304 296 275 61 356 273 4 59 3 8 6 361 293 291 271 353 279 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 294 7 360 268 355 304 296 270 275 61 356 273 4 59 3 8 6 361 293 291 271 353 281 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_sim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 284 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270 2 296 355 304 7 360 294 268 354 353 275 61 356 273 4 59 3 8 6 361 293 291 271 284</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_smc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 286 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 293 273 7 59 8 271 61 2 291 356 4 3 361 353 275 360 355 294 304 296 268 270 354 286</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\drivers\fsl_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 288 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304 7 355 2 296 360 294 268 275 61 356 273 4 59 3 8 6 361 293 291 271 353 288 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\iar\startup_MKV11Z7.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\sdk\devices\MKV11Z7\system_MKV11Z7.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 316</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 317</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355 2 7 4 3 8 59 304 294 293 268 271 353 354 270 291 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 3 268 353 2 59 8 296 271 294 7 304 293 291 355 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\board.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 406</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355 2 7 4 3 8 59 304 275 360 61 356 6 361 294 293 268 271 353 354 270 291 296 273 297 300 281 292 288</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 356 291 2 288 304 6 293 270 297 61 273 361 355 353 275 292 281 4 59 3 8 360 294 296 268 354 300 271</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\clock_config.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 404</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 286 300</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275 356 2 4 3 361 353 300 61 273 7 59 8 6 293 291 271 286 360 355 294 304 296 268 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc12.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 321 260 154 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 157 187 188 190 264 146 148 149 151 152 150 153 155 156 294 293 268 271 353 270 291 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226 158 161 146 265 310 253 96 338 240 203 59 8 148 187 79 102 327 345 234 329 200 2 94 157 293 260 90 100 98 311 314 333 342 350 224 313 335 249 196 349 95 82 330 328 271 264 190 164 81 86 80 97 77 305 309 119 325 324 336 340 343 347 352 228 231 236 232 244 247 251 195 198 202 4 3 85 150 291 353 294 154 188 163 159 162 101 93 99 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 197 199 201 204 205 355 354 7 304 151 155 321 149 152 153 156 296 268 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_hsadc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 323 260 154 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 157 187 188 190 264 146 148 149 151 152 150 153 155 156 294 293 268 271 353 270 291 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227 162 161 146 265 294 312 85 84 339 241 82 148 188 99 302 331 346 235 246 201 7 2 313 157 293 163 93 92 89 306 324 334 338 351 230 238 243 250 197 204 355 304 335 328 271 154 159 101 94 87 91 83 88 308 307 118 326 332 337 341 344 348 224 229 233 237 239 242 245 248 252 95 199 203 205 354 330 150 291 353 260 264 187 190 158 164 90 81 79 86 100 80 96 97 98 77 102 305 311 309 310 119 314 325 327 333 336 340 342 343 345 347 350 352 226 228 231 234 236 240 232 244 329 247 249 251 253 195 196 198 200 202 349 4 59 3 8 151 155 323 149 152 153 156 296 268 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\board\pin_mux.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 282</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 304 353 355 2 296 270 360 294 268 282 61 356 273 4 59 3 8 6 361 293 291 271 275 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_algorithms\bldc_control.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 384 261 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 147 264 146 148 149 151 152 150 153 155 156 260 154 157 187 188 190 257 191 192 189 193 194</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240 148 138 161 96 338 203 99 217 158 310 226 253 330 265 151 209 130 147 79 102 327 345 234 329 200 7 2 192 260 213 221 134 142 90 100 98 311 314 333 342 350 224 313 335 249 196 349 304 207 82 157 261 206 211 215 219 223 132 136 140 144 164 81 86 80 97 77 305 309 119 325 324 336 340 343 347 352 228 231 236 328 232 244 247 251 195 198 202 94 135 155 154 189 264 257 208 210 212 214 216 218 220 222 129 131 133 137 139 141 143 145 163 159 162 101 93 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 85 95 197 199 201 204 205 355 354 4 59 3 8 146 150 188 194 384 149 152 153 156 187 190 191 193</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_appcmd.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 369 2 296 353 399 275 355 304 7 376 281 360 294 268 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_bdm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 268 281 360 353 294 7 355 275 376 369 399 304 296 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_can.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361 383 300 353 356 4 3 2 355 275 376 297 61 273 7 59 8 6 293 291 270 374 369 399 281 360 294 304 296 268 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_Kxx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355 275 399 304 7 369 2 296 353 371 281 360 294 268 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_lin.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 7 297 2 291 353 273 59 8 6 293 355 275 376 383 300 356 4 3 361 270 374 369 399 281 360 294 304 296 268 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_pipes.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 296 369 353 399 275 355 304 7 376 281 360 294 268 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_protocol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304 7 399 275 355 353 369 2 296 376 281 360 294 268 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_rec.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376 378</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275 355 399 304 7 369 2 296 353 376 281 360 294 268 271 374 378 383 297 300 61 356 273 4 59 3 8 6 361 293 291 371 364 270 354</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_scope.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275 355 399 304 7 353 369 2 296 376 281 360 294 268 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_serial.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 369 2 296 353 399 275 355 304 7 376 281 360 294 268 270 374 383 297 300 61 356 273 4 59 3 8 6 361 293 291 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_sfio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 361 383 300 353 356 4 3 2 355 275 376 297 61 273 7 59 8 6 293 291 270 374 369 399 281 360 294 304 296 268 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\freemaster_drv\freemaster_tsa.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 374 371 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 4 356 2 353 383 300 361 355 275 376 297 61 273 7 59 8 6 293 291 270 374 369 399 281 360 294 304 296 268 354 364 271 371</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 386 294 293 268 355 2 7 4 3 8 59 304 271 353 354 270 291 296 260 154 265 163 161 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 157 187 188 190 264 146 148 149 151 152 150 153 155 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341 293 83 242 161 94 157 101 118 229 95 313 260 291 2 87 308 332 348 237 248 203 82 99 330 153 265 59 8 353 154 159 91 88 307 326 337 344 224 233 239 245 252 199 205 354 149 148 294 264 296 268 355 270 4 3 188 163 162 93 92 84 89 302 306 312 324 331 334 339 338 346 351 227 230 235 238 241 243 246 250 85 197 201 204 328 335 152 156 386 271 7 304 187 190 158 164 90 81 79 86 100 80 96 97 98 77 102 305 311 309 310 119 314 325 327 333 336 340 342 343 345 347 350 352 226 228 231 234 236 240 232 244 329 247 249 251 253 195 196 198 200 202 349 146 151 150 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_cmt_ftm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 388 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 261 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 147 260 154 157 187 188 190 264 146 148 149 151 152 150 153 155 156 294 293 268 271 353 270 291 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 203 161 215 338 96 240 59 265 158 310 226 253 330 264 79 102 327 345 234 329 200 2 94 136 135 150 291 90 100 98 311 314 333 342 350 224 313 335 249 196 349 95 82 99 206 223 144 207 271 261 164 81 86 80 97 77 305 309 119 325 324 336 340 343 347 352 228 231 236 328 232 244 247 251 195 198 202 4 3 85 211 219 132 140 188 157 146 148 293 353 260 294 163 159 162 101 93 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 197 199 201 204 205 355 354 7 304 209 213 217 221 130 134 138 142 147 210 154 151 155 388 208 212 214 216 218 220 222 129 131 133 137 139 141 143 145 187 190 149 152 153 156 296 268 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_ftm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 392 294 293 268 355 2 7 4 3 8 59 304 271 353 354 270 291 296 265 163 161 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 264 146 148 149 151 152 150 153 155 156</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 335 331 161 201 99 235 294 302 346 246 330 152 265 2 162 84 312 339 227 241 85 82 313 94 148 264 296 59 8 353 163 93 92 89 306 324 334 338 351 230 238 243 250 197 204 355 329 156 268 270 4 3 354 159 101 87 91 83 88 308 307 118 326 332 337 341 344 348 224 229 233 237 239 242 245 248 252 95 199 203 205 149 153 392 293 291 271 7 304 158 164 90 81 79 86 100 80 96 97 98 77 102 305 311 309 310 119 314 325 327 333 336 340 342 343 345 347 350 352 226 228 231 234 236 328 240 232 244 247 249 251 253 195 196 198 200 202 349 146 151 150 155</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_mosfet_predrv_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 391 265 163 161 355 2 7 4 3 8 59 304 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 279 275 360 61 356 6 361 294 293 268 271 353 270 291 296 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203 8 273 338 96 240 59 82 158 310 226 253 161 279 79 102 327 345 234 329 200 2 94 7 90 100 98 311 314 333 342 350 224 313 335 249 196 349 85 275 265 164 81 86 80 97 77 305 309 119 325 324 336 340 343 347 352 228 231 236 328 232 244 247 251 195 198 202 330 4 3 61 361 294 163 159 162 101 93 99 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 95 197 199 201 204 205 355 354 304 356 6 293 291 271 353 391 360 296 268 270</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\state_machine\state_machine.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 396 355 2 7 4 3 8 59 304</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 4 59 8 355 7 3 396 304</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_state_machine\m1_sm_ref_sol.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 395 400 396 355 2 7 4 3 8 59 304 384 261 265 163 161 354 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 147 264 146 148 149 151 152 150 153 155 156 260 154 157 187 188 190 257 191 192 189 193 194 298 301 392 294 293 268 271 353 270 291 296 388 386 391 279 275 360 61 356 6 361 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260 161 90 85 153 221 224 265 257 314 196 82 392 59 8 142 98 342 335 329 207 138 2 213 134 100 311 333 350 313 249 349 94 206 261 279 360 396 209 217 130 147 158 79 96 102 310 327 338 345 226 234 240 253 200 203 328 149 148 190 191 264 294 4 3 211 215 219 223 132 136 140 144 164 81 86 80 97 77 305 309 119 325 324 336 340 343 347 352 228 231 236 232 244 247 251 195 198 202 330 95 99 152 156 187 193 139 301 386 293 291 271 353 355 7 298 400 384 304 208 210 212 214 216 218 220 222 129 131 133 135 137 141 143 145 163 159 162 101 93 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 197 199 201 204 205 354 146 151 150 155 154 188 157 192 194 189 388 391 296 268 270 275 61 356 273 6 361 395</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\fm_tsa_bldc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 398 364 369 399 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 383 298 301 392 265 163 161 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 264 146 148 149 151 152 150 153 155 156 388 261 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 147 260 154 157 187 188 190 386 391 279 395 400 396 384 257 191 192 189 193 194</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293 80 161 148 129 6 328 265 207 336 330 309 352 251 94 208 145 273 7 59 8 271 81 77 325 343 231 244 198 82 313 146 260 216 137 192 383 297 61 2 291 353 388 164 86 97 305 119 324 340 347 228 236 232 247 195 202 95 99 335 150 212 220 133 141 211 190 279 395 300 356 4 3 361 391 158 90 79 100 96 98 102 311 310 314 327 333 338 342 345 350 226 224 234 240 329 249 253 196 200 349 203 85 151 155 294 210 214 218 222 131 135 139 143 206 138 187 264 355 261 189 364 298 369 399 281 275 360 304 296 268 270 354 301 392 386 163 159 162 101 93 87 92 91 84 83 89 88 302 308 306 307 312 118 326 331 332 334 337 339 341 344 346 348 351 227 229 230 233 235 237 238 239 241 242 243 245 246 248 250 252 197 199 201 204 205 149 152 153 156 209 213 215 217 219 221 223 130 132 134 136 140 142 144 147 154 188 157 396 194 398 400 384 257 191 193</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\projects\twrkv11z\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 315</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 297 300 281 275 360 2 7 4 3 8 59 304 61 355 356 6 361 294 293 268 271 353 354 270 291 296 273 298 301 392 265 163 161 159 158 162 164 101 90 93 81 94 79 99 86 87 100 85 92 80 95 91 96 84 97 83 98 89 77 88 82 102 302 305 308 311 306 309 307 310 312 313 119 118 314 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 224 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 195 196 197 198 199 200 201 202 203 204 205 264 146 148 149 151 152 150 153 155 156 388 261 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 147 260 154 157 187 188 190 386 391 279 364 369 399 383 363 395 400 396 384 257 191 192 189 193 194</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82 235 161 275 99 330 148 218 265 207 331 201 151 355 392 302 346 246 294 139 304 7 353 162 84 312 339 227 241 85 313 232 210 131 187 192 363 2 296 270 264 163 93 92 89 306 324 334 338 351 230 238 243 250 197 204 94 155 214 222 135 143 206 138 364 281 360 268 354 301 386 159 101 87 91 83 88 308 307 118 326 332 337 341 344 348 224 229 233 237 239 242 245 248 252 95 199 203 205 328 329 146 150 260 208 212 216 220 129 133 137 141 145 211 190 279 369 399 261 189 298 395 300 61 356 273 4 59 3 8 6 361 293 291 271 388 391 158 164 90 81 79 86 100 80 96 97 98 77 102 305 311 309 310 119 314 325 327 333 336 340 342 343 345 347 350 352 226 228 231 234 236 240 335 244 247 249 251 253 195 196 198 200 202 349 149 152 153 156 209 213 215 217 219 221 223 130 132 134 136 140 142 144 147 154 188 157 383 396 194 297 400 384 257 191 193</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_pwm3ph_pwma.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_adc12.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\MCRSP_BLDC_V1.3.0\src\common\mc_drivers\mcdrv_adc_hsadc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
